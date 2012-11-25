@@ -1,0 +1,113 @@
+<%= content_for :view_headyield do %>
+<style type="text/css">
+  h1#station-name{
+    color:white;
+  }
+  h3{
+    color:white;
+  }
+  .blackground{
+    background-color: black;
+  }
+</style>
+<%  end %>
+<%= render "topbar/topbar" %>
+  
+  <div class="row">
+    <div class="three columns">
+      <%= image_tag "hood.jpg" %>
+    </div>
+    <div class="nine columns blackground">
+      <h1 id="station-name" >Taman Bukit Kinrara</h1>
+    </div>
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row">    
+    
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="nine columns push-three">
+        <div class="alert-box alert">
+            ATTENTION: Please settle payment before service termination on next month.
+            <a href="" class="close">&times;</a>
+        </div>
+
+      <h3>Map</h3>
+      
+      <!-- <p id="station-map"><img src="http://placehold.it/700x240&text=Ad" /></p> -->
+      <iframe width="700" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Taman+Bukit+Kinrara+Puchong+Selangor+Malaysia&amp;aq=0&amp;oq=taman+bukit+kinrara&amp;sll=4.18646,109.48935&amp;sspn=25.065096,47.856445&amp;ie=UTF8&amp;hq=&amp;hnear=Taman+Bukit+Kinrara,+Puchong,+Selangor,+Malaysia&amp;t=m&amp;z=14&amp;ll=3.040908,101.636399&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Taman+Bukit+Kinrara+Puchong+Selangor+Malaysia&amp;aq=0&amp;oq=taman+bukit+kinrara&amp;sll=4.18646,109.48935&amp;sspn=25.065096,47.856445&amp;ie=UTF8&amp;hq=&amp;hnear=Taman+Bukit+Kinrara,+Puchong,+Selangor,+Malaysia&amp;t=m&amp;z=14&amp;ll=3.040908,101.636399" style="color:#FFF;text-align:left">View Larger Map</a></small>
+            
+    </div>
+    
+    
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="three columns pull-nine">
+        
+      
+      <ul class="accordion">
+  <li class="active">
+    <div class="title">
+      <i class="foundicon-globe"></i><h5>HOME</h5>
+    </div>
+  </li>
+  <li>
+    <div class="title">
+      <h5>Visitors</h5>
+    </div>
+    <div class="content">
+      <p>Foo Chow!</p>
+    </div>
+  </li>
+  <li>
+    <div class="title">
+      <h5>Guards</h5>
+    </div>
+    <div class="content">
+      <p>Cerita attendance dalam ni</p>
+    </div>
+  </li>  
+  <li>
+    <div class="title">
+      <h5>Incident Reports</h5>
+    </div>
+    <div class="content">
+      <p>Cerita attendance dalam ni</p>
+    </div>
+  </li>
+</ul>
+  <div class="blackground">
+    <h3>Residents</h3>
+  </div>
+      
+  <p><img src="http://placehold.it/320x240&text=Residents chat" /></p>
+        
+    </div>
+    
+  </div>
+    
+  
+  <!-- Footer -->
+  
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; Copyright no one at all. Go to town.</p>
+        </div>
+        <div class="six columns">
+          <ul class="link-list right">
+            <li><a href="#">Section 1</a></li>
+            <li><a href="#">Section 2</a></li>
+            <li><a href="#">Section 3</a></li>
+            <li><a href="#">Section 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  

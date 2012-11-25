@@ -1,0 +1,32 @@
+<%= content_for :view_headyield do %>
+<style type="text/css">
+  div#login_box{
+    width:350px;
+    margin:0 auto;
+    margin-top:50px;
+
+  }
+  div#login_box input{
+    margin-bottom:2px;
+  }
+  img{
+    border: 1 solid black;
+  }
+  h1#logo{
+     font-size:4.5em;
+     background-color: black;
+     margin-bottom:2px;
+  }
+<% end %>
+
+</style>
+
+
+<div id="login_box">
+  <h1 id="logo" class="logo-text">HoodWatch</h1>
+    <!-- <img src="http://placehold.it/350x150&text=HoodWatch"> -->
+    <%= image_tag "hood.jpg" %>
+    <input type="text" placeholder="Username/Email Address"/>
+    <input type="password" placeholder="Password"/>
+    <input type="submit" class="button" style="width:100%" value="Login"/>
+</div>
