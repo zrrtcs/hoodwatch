@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
@@ -40,4 +40,10 @@ gem 'jquery-rails'
 group :assets do
   gem "compass-rails"
   gem "zurb-foundation"
+end
+
+group :test do
+  gem 'minitest'
+  gem 'ansi'
+  gem 'turn'
 end
